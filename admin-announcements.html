@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fashi Template">
+    <meta name="keywords" content="Fashi, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vista Glasses - Admin - Duyurular</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style-p.css">
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <header class="header-section">
+            <div class="header-top">
+                <div class="container">
+                    <div class="ht-left">
+                        <div class="mail-service">
+                            <i class=" fa fa-envelope"></i>
+                            hello.colorlib@gmail.com
+                        </div>
+                        <div class="phone-service">
+                            <i class=" fa fa-phone"></i>
+                            +65 11.188.888
+                        </div>
+                    </div>
+                    <div class="ht-right">
+                        <a href="login.html" class="login-panel"><i class="fa fa-user"></i>Giriş Yap</a>
+                        <div class="lan-selector">
+                            <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                                <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
+                                        data-title="Türkçe">
+                                    Türkçe
+                                </option>
+                                <option value='yu' data-image="img/flag-2.jpg" data-imagecss="flag yu"
+                                        data-title="English">
+                                    English
+                                </option>
+                            </select>
+                        </div>
+                        <div class="top-social">
+                            <a href="#"><i class="ti-facebook"></i></a>
+                            <a href="#"><i class="ti-twitter-alt"></i></a>
+                            <a href="#"><i class="ti-linkedin"></i></a>
+                            <a href="#"><i class="ti-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="inner-header">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2">
+                            <div class="logo">
+                                <a href="./index.html">
+                                    <img src="img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7">
+                            <div class="advanced-search">
+                                <button type="button" class="category-btn">Tüm Ürünler</button>
+                                <form action="#" class="input-group">
+                                    <input type="text" placeholder="Ne Aramıştınız?">
+                                    <button type="button"><i class="ti-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 text-right col-md-3">
+                            <ul class="nav-right">
+                                <li class="heart-icon">
+                                    <a href="#">
+                                        <i class="icon_heart_alt"></i>
+
+                                    </a>
+                                </li>
+                                <li class="cart-icon">
+                                    <a href="#">
+                                        <i class="icon_bag_alt"></i>
+
+                                    </a>
+                                    <div class="cart-hover">
+                                        <div class="select-items">
+                                            <table>
+                                            </table>
+                                        </div>
+                                        <div class="select-total">
+                                            <span>Toplam:</span>
+                                            <h5></h5>
+                                        </div>
+                                        <div class="select-button">
+                                            <a href="shopping-cart.html" class="primary-btn view-card">SEPETE GİT</a>
+                                            <a href="check-out.html" class="primary-btn checkout-btn">ÖDEME YAP</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="cart-price"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item">
+                <div class="container">
+                    <nav class="nav-menu mobile-menu">
+                        <ul>
+                            <li><a href="./admin-index.html">ㅤSATIŞLAR / İSTATİSTİKLER</a></li>
+                            <li>
+                                <a href="admin-products.html">ㅤÜRÜNLERㅤ</a>
+
+                            </li>
+                            <li><a href="admin-faq.html">ㅤSORULARㅤ</a></li>
+                            <li  class="active">
+                                <a href="admin-announcements.html">ㅤDUYURULARㅤ</a>
+                            </li>
+                            <li><a href="index.html">ㅤÇIKIŞ YAPㅤ</a></li>
+
+                        </ul>
+                    </nav>
+                    <div id="mobile-menu-wrap"></div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+        <!-- Breadcrumb Section Begin -->
+        <div class="breacrumb-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="breadcrumb-text product-more">
+                            <a href="./admin-index.html"><i class="fa fa-home"></i> Ana Sayfa</a>
+                            <span><h6>Duyurular</h6></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Breadcrumb Section End -->
+        <br><br><br><br>
+        <div class="section-title">
+            <h2>KAMPANYALAR - DUYURULAR</h2>
+        </div>
+        <!-- Blog Section Begin -->
+        <section class="blog-section spad">
+            <div class="container">
+
+
+                <div class="products-container">
+
+                    <div class="product" data-name="p-1">
+                        <h3>Ücretsiz Kargo Kampanyası! 📦</h3>
+                        <div class="tag-item">
+                            <i class="fa fa-calendar-o"></i>
+                            01-09-2023
+                        </div>
+                    </div>
+
+                    <div class="product" data-name="p-2">
+                        <h3>Son Şans: %40 İndirim! ⏳</h3>
+                        <div class="tag-item">
+                            <i class="fa fa-calendar-o"></i>
+                            25-08-2023
+                        </div>
+                    </div>
+
+                    <div class="product" data-name="p-3">
+                        <h3>Yeni Koleksiyon Geliyor! 🆕</h3>
+                        <div class="tag-item">
+                            <i class="fa fa-calendar-o"></i>
+                            08-07-2023
+                        </div>
+                    </div>
+
+                    <div class="product" data-name="p-4">
+                        <h3>Öğrencilere Özel İndirim! 🎓</h3>
+                        <div class="tag-item">
+                            <i class="fa fa-calendar-o"></i>
+                            05-06-2023
+                        </div>
+                    </div>
+
+                    <div class="product" data-name="p-5">
+
+                        <h3>Yaz Kampanyası Başladı! 🌞</h3>
+                        <div class="tag-item">
+                            <i class="fa fa-calendar-o"></i>
+                            29-05-2023
+                        </div>
+                    </div>
+
+                    <div class="product" data-name="p-6">
+                        <h3>Anneler Günü İçin Mükemmel Hediye! 🌼</h3>
+                        <div class="tag-item">
+                            <i class="fa fa-calendar-o"></i>
+                            10-05-2023
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="products-preview">
+
+                <div class="preview" data-target="p-1">
+                    <i class="fas fa-times"></i>
+
+                    <h3>Ücretsiz Kargo Kampanyası! 📦</h3>
+
+                    <p>Şimdi alışveriş yapmanın tam zamanı! Ücretsiz kargo kampanyamızı kaçırmayın. Siparişlerinizi hiçbir kargo ücreti ödemeden kapınıza getirelim. Hızlıca alışverişe başlayın!</p>
+                    <div class="buttons">
+                        <a href="shop.html" class="buy">Ürünleri Gör</a>
+                    </div>
+                </div>
+
+                <div class="preview" data-target="p-2">
+                    <i class="fas fa-times"></i>
+
+                    <h3>Son Şans: %40 İndirim! ⏳</h3>
+
+                    <p>Son günler! %40 indirim fırsatını kaçırmayın. En sevdiğiniz gözlüklerde büyük tasarruf yapmak için hemen alışverişe başlayın. Zaman sınırlı, acele edin!</p>
+
+                    <div class="buttons">
+                        <a href="shop.html" class="buy">Ürünleri Gör</a>
+                    </div>
+                </div>
+
+                <div class="preview" data-target="p-3">
+                    <i class="fas fa-times"></i>
+                    <img src="img/announcements/newseason.jpeg" alt="">
+                    <h3>Yeni Koleksiyon Geliyor! 🆕</h3>
+
+                    <p>Heyecan verici haber! Yepyeni koleksiyonumuz çok yakında geliyor. En son trendlere ayak uydurun ve stilinizi güncelleyin. Yeni ürünlerle tanışmak için bizi takip edin.</p>
+
+
+                </div>
+
+                <div class="preview" data-target="p-4">
+                    <i class="fas fa-times"></i>
+                    <h3>Öğrencilere Özel İndirim! 🎓</h3>
+
+                    <p>Değerli öğrencilerimize özel bir teklif! Öğrenci kimliğinizi/belgenizi getirin %15 indirim kazanın. Daha fazla bilgi için sitemizi ziyaret edin.</p>
+
+                    <div class="buttons">
+                        <a href="shop.html" class="buy">Ürünleri Gör</a>
+                    </div>
+                </div>
+
+                <div class="preview" data-target="p-5">
+                    <i class="fas fa-times"></i>
+                    <img src="img/announcements/summer.jpg" alt="">
+                    <h3>Yaz Kampanyası Başladı! 🌞</h3>
+                    <p>Yazın tadını güneş gözlükleriyle çıkarın! Sıcak mevsim için mükemmel güneş gözlüklerimizle tarzınızı tamamlayın. Hemen güneş gözlüğü koleksiyonumuza göz atın ve yazın keyfini çıkarın!🕶️ </p>
+                    <div class="buttons">
+                        <a href="shop.html" class="buy">Ürünleri Gör</a>
+                    </div>
+                </div>
+
+                <div class="preview" data-target="p-6">
+                    <i class="fas fa-times"></i>
+                    <h3>Anneler Günü İçin Mükemmel Hediye! 🌼</h3>
+
+                    <p>Anneniz için özel bir hediye seçmek artık daha kolay! Ona stil ve koruma sunan muhteşem güneş gözlükleriyle mutluluğu hediye edin. Güneş gözlükleri koleksiyonumuza göz atın ve ona sevginizi en güzel şekilde ifade edin.</p>
+                    <div class="buttons">
+                        <a href="shop.html" class="buy">Ürünleri Gör</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <div class="section-title">
+            <a href="admin-add-announcement.html" class="primary-btn">DUYURU EKLE</a>
+        </div>
+        <!-- Blog Section End -->
+        <!-- Footer Section Begin -->
+        <footer class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer-left">
+                            <div class="footer-logo">
+                                <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                            </div>
+                            <ul>
+                                <li>Adres: 60-49 Road 11378 New York</li>
+                                <li>Telefon: +65 11.188.888</li>
+                                <li>Email: hello.colorlib@gmail.com</li>
+                            </ul>
+                            <div class="footer-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1">
+                        <div class="footer-widget">
+                            <h5>Bilgi</h5>
+                            <ul>
+                                <li><a href="aboutus.html">Hakkımızda</a></li>
+                                <li><a href="mv.html">Mizyon/Vizyon</a></li>
+                                <li><a href="#">Birimlerimiz</a></li>
+                                <li><a href="contact.html">İletişim</a></li>
+                                <li><a href="#">Banka Hesaplarımız</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-widget">
+                            <h5>Admin Özel</h5>
+                            <ul>
+                                <li><a href="admin-add-product.html">Ürün Ekle</a></li>
+                                <li><a href="admin-add-announcement.html">Duyuru Ekle</a></li>
+                                <li><a href="admin-faq.html">Soru Ekle</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="newslatter-item">
+                            <h5>Bildirim almak için abone olun</h5>
+                            <p>Kampanyalar ve inidirimlerle ilgili e-mail alırsınız.</p>
+                            <form action="#" class="subscribe-form">
+                                <input type="text" placeholder="E-mail">
+                                <button type="button">Abone ol</button>
+                            </form>
+                            <br />
+                            <p>211307060 - Hacer Sueda EFE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-reserved">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright-text">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </div>
+                            <div class="payment-pic">
+                                <img src="img/payment-method.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+        <!-- Js Plugins -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="js/jquery.zoom.min.js"></script>
+        <script src="js/jquery.dd.min.js"></script>
+        <script src="js/jquery.slicknav.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
