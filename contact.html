@@ -22,6 +22,32 @@
     <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <style>
+      
+        .iban-container {
+            display: flex;
+            align-items: center;
+            border: 2px solid #ccc; 
+            padding: 10px;
+            margin-bottom: 10px; 
+        }
+
+        .bank-logo {
+            width: 100px; 
+            height: auto; 
+            margin-right: 10px;
+        }
+
+        .iban-info {
+            font-family: Arial, sans-serif;
+        }
+
+        .iban-number {
+            font-weight: bold;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -263,11 +289,42 @@
                                         <div class="col-lg-12">
                                             <textarea placeholder="Mesajınız"></textarea>
                                             <button type="submit" class="site-btn">Gönder</button>
+                                            <br /> <br /><br /><br />
                                         </div>
                                     </div>
                                 </form>
                             </div>
                         </div>
+                    </div>
+
+                </div>
+                
+                <div class="contact-title">
+                    <h4>Banka Hesaplarımız</h4>
+
+                </div>
+
+                <div class="iban-container">
+                    <img class="bank-logo" src="img/banka/ziraat.jpg">
+                    <div class="iban-info">
+                        <div class="iban-number">IBAN Numarası: 1234 5678 9012 3456 7890</div>
+                        <div>Ziraat Bankası</div>
+                    </div>
+                </div>
+
+                <div class="iban-container">
+                    <img class="bank-logo" src="img/banka/yapikredi.jpg">
+                    <div class="iban-info">
+                        <div class="iban-number">IBAN Numarası: 2345 6789 0123 4567 8901</div>
+                        <div>Yapı Kredi</div>
+                    </div>
+                </div>
+
+                <div class="iban-container">
+                    <img class="bank-logo" src="img/banka/isbank.png">
+                    <div class="iban-info">
+                        <div class="iban-number">IBAN Numarası: 3456 7890 1234 5678 9012</div>
+                        <div>İş Bankası</div>
                     </div>
                 </div>
             </div>
@@ -333,10 +390,11 @@
                             <h5>Bilgi</h5>
                             <ul>
                                 <li><a href="aboutus.html">Hakkımızda</a></li>
-                                <li><a href="mv.html">Mizyon/Vizyon</a></li>
-                                <li><a href="#">Birimlerimiz</a></li>
+                                <li><a href="mv.html">Misyon/Vizyon</a></li>
+                                <li><a href="faq.html">Sık Sorulan Sorular</a></li>
+                                <li><a href="announcements.html">Duyurular</a></li>
                                 <li><a href="contact.html">İletişim</a></li>
-                                <li><a href="#">Banka Hesaplarımız</a></li>
+                                <li><a href="contact.html">Banka Hesaplarımız</a></li>
 
                             </ul>
                         </div>
@@ -345,10 +403,9 @@
                         <div class="footer-widget">
                             <h5>Alışveriş</h5>
                             <ul>
-
-                                <li><a href="shopping-cart.html">Sepetim</a></li>
                                 <li><a href="shop.html">Ürünler</a></li>
-                                <li><a href="#">Kargo Takibi</a></li>
+                                <li><a href="shopping-cart.html">Sepetim</a></li>
+                                <li><a href="check-out.html">Ödeme</a></li>
                             </ul>
                         </div>
                     </div>

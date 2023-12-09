@@ -7,16 +7,12 @@
     <meta name="keywords" content="Fashi, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vista Glasses - Admin - Duyurular</title>
+    <title>Vista Glasses - Soru Ekle</title>
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- date picker-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style-p.css">
-
-    <!-- custom js file link  -->
-    <script src="js/script.js" defer></script>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -148,7 +144,7 @@
                                 </ul>
                             </li>
 
-                            <li class="active">
+                            <li>
                                 <a href="admin-announcements.html">ㅤDUYURULARㅤ</a>
                                 <ul class="dropdown">
                                     <li><a href="admin-add-announcement.html">Duyuru Ekle</a></li>
@@ -163,157 +159,54 @@
             </div>
         </header>
         <!-- Header End -->
-        <!-- Breadcrumb Section Begin -->
         <div class="breacrumb-section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="breadcrumb-text product-more">
-                            <a href="./admin-index.html"><i class="fa fa-home"></i> Ana Sayfa</a>
-                            <span><h6>Duyurular</h6></span>
+                            <a href="./admin-index.html"><i class="fa fa-home"></i> Ana Sayfa</a><a href="./admin-faq.html">Sorular</a>
+                            <span>Soru Ekle</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Breadcrumb Section End -->
-        <br><br><br><br>
-        <div class="section-title">
-            <h2>KAMPANYALAR - DUYURULAR</h2>
-        </div>
-        <!-- Blog Section Begin -->
-        <section class="blog-section spad">
+
+        <section class="blog-details spad">
             <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="blog-details-inner">
+                            <div class="leave-comment">
+                                <div class="section-title">
+                                    <h2>SORU EKLE</h2><br />
+                                </div>
+                                <form action="#" class="comment-form">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <input type="text" placeholder="Soru">
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <textarea placeholder="Cevap"></textarea>
+                                            <div class="section-title">
 
 
-                <div class="products-container">
+                                            </div>
+                                            <div class="section-title">
+                                                <button type="submit" class="site-btn">KAYDET</button>
 
-                    <div class="product" data-name="p-1">
-                        <h3>Ücretsiz Kargo Kampanyası! 📦</h3>
-                        <div class="tag-item">
-                            <i class="fa fa-calendar-o"></i>
-                            01-09-2023
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="product" data-name="p-2">
-                        <h3>Son Şans: %40 İndirim! ⏳</h3>
-                        <div class="tag-item">
-                            <i class="fa fa-calendar-o"></i>
-                            25-08-2023
-                        </div>
-                    </div>
-
-                    <div class="product" data-name="p-3">
-                        <h3>Yeni Koleksiyon Geliyor! 🆕</h3>
-                        <div class="tag-item">
-                            <i class="fa fa-calendar-o"></i>
-                            08-07-2023
-                        </div>
-                    </div>
-
-                    <div class="product" data-name="p-4">
-                        <h3>Öğrencilere Özel İndirim! 🎓</h3>
-                        <div class="tag-item">
-                            <i class="fa fa-calendar-o"></i>
-                            05-06-2023
-                        </div>
-                    </div>
-
-                    <div class="product" data-name="p-5">
-
-                        <h3>Yaz Kampanyası Başladı! 🌞</h3>
-                        <div class="tag-item">
-                            <i class="fa fa-calendar-o"></i>
-                            29-05-2023
-                        </div>
-                    </div>
-
-                    <div class="product" data-name="p-6">
-                        <h3>Anneler Günü İçin Mükemmel Hediye! 🌼</h3>
-                        <div class="tag-item">
-                            <i class="fa fa-calendar-o"></i>
-                            10-05-2023
-                        </div>
-                    </div>
-
                 </div>
-
             </div>
-
-            <div class="products-preview">
-
-                <div class="preview" data-target="p-1">
-                    <i class="fas fa-times"></i>
-
-                    <h3>Ücretsiz Kargo Kampanyası! 📦</h3>
-
-                    <p>Şimdi alışveriş yapmanın tam zamanı! Ücretsiz kargo kampanyamızı kaçırmayın. Siparişlerinizi hiçbir kargo ücreti ödemeden kapınıza getirelim. Hızlıca alışverişe başlayın!</p>
-                    <div class="buttons">
-                        <a href="shop.html" class="buy">Ürünleri Gör</a>
-                    </div>
-                </div>
-
-                <div class="preview" data-target="p-2">
-                    <i class="fas fa-times"></i>
-
-                    <h3>Son Şans: %40 İndirim! ⏳</h3>
-
-                    <p>Son günler! %40 indirim fırsatını kaçırmayın. En sevdiğiniz gözlüklerde büyük tasarruf yapmak için hemen alışverişe başlayın. Zaman sınırlı, acele edin!</p>
-
-                    <div class="buttons">
-                        <a href="shop.html" class="buy">Ürünleri Gör</a>
-                    </div>
-                </div>
-
-                <div class="preview" data-target="p-3">
-                    <i class="fas fa-times"></i>
-                    <img src="img/announcements/newseason.jpeg" alt="">
-                    <h3>Yeni Koleksiyon Geliyor! 🆕</h3>
-
-                    <p>Heyecan verici haber! Yepyeni koleksiyonumuz çok yakında geliyor. En son trendlere ayak uydurun ve stilinizi güncelleyin. Yeni ürünlerle tanışmak için bizi takip edin.</p>
-
-
-                </div>
-
-                <div class="preview" data-target="p-4">
-                    <i class="fas fa-times"></i>
-                    <h3>Öğrencilere Özel İndirim! 🎓</h3>
-
-                    <p>Değerli öğrencilerimize özel bir teklif! Öğrenci kimliğinizi/belgenizi getirin %15 indirim kazanın. Daha fazla bilgi için sitemizi ziyaret edin.</p>
-
-                    <div class="buttons">
-                        <a href="shop.html" class="buy">Ürünleri Gör</a>
-                    </div>
-                </div>
-
-                <div class="preview" data-target="p-5">
-                    <i class="fas fa-times"></i>
-                    <img src="img/announcements/summer.jpg" alt="">
-                    <h3>Yaz Kampanyası Başladı! 🌞</h3>
-                    <p>Yazın tadını güneş gözlükleriyle çıkarın! Sıcak mevsim için mükemmel güneş gözlüklerimizle tarzınızı tamamlayın. Hemen güneş gözlüğü koleksiyonumuza göz atın ve yazın keyfini çıkarın!🕶️ </p>
-                    <div class="buttons">
-                        <a href="shop.html" class="buy">Ürünleri Gör</a>
-                    </div>
-                </div>
-
-                <div class="preview" data-target="p-6">
-                    <i class="fas fa-times"></i>
-                    <h3>Anneler Günü İçin Mükemmel Hediye! 🌼</h3>
-
-                    <p>Anneniz için özel bir hediye seçmek artık daha kolay! Ona stil ve koruma sunan muhteşem güneş gözlükleriyle mutluluğu hediye edin. Güneş gözlükleri koleksiyonumuza göz atın ve ona sevginizi en güzel şekilde ifade edin.</p>
-                    <div class="buttons">
-                        <a href="shop.html" class="buy">Ürünleri Gör</a>
-                    </div>
-                </div>
-
-            </div>
-
         </section>
-        <div class="section-title">
-            <a href="admin-add-announcement.html" class="primary-btn">DUYURU EKLE</a>
-        </div>
-        <!-- Blog Section End -->
         <!-- Footer Section Begin -->
         <footer class="footer-section">
             <div class="container">
@@ -350,7 +243,7 @@
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-2">
                         <div class="footer-widget">
                             <h5>Admin Özel</h5>
@@ -406,6 +299,15 @@
         <script src="js/jquery.slicknav.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/main.js"></script>
+        </script>
 </body>
 
 </html>
+
+
+
+
+
+
+
+

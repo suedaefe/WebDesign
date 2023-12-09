@@ -127,11 +127,23 @@
                             <li><a href="./admin-index.html">ㅤSATIŞLAR / İSTATİSTİKLER</a></li>
                             <li>
                                 <a href="admin-products.html">ㅤÜRÜNLERㅤ</a>
+                                <ul class="dropdown">
+                                    <li><a href="admin-add-product.html">Ürün Ekle</a></li>
+                                </ul>
 
                             </li>
-                            <li class="active"><a href="admin-faq.html">ㅤSORULARㅤ</a></li>
+                            <li class="active">
+                                <a href="admin-faq.html">ㅤSORULARㅤ</a>
+                                <ul class="dropdown">
+                                    <li><a href="admin-add-faq.html">Soru Ekle</a></li>
+                                </ul>
+                            </li>
+
                             <li>
                                 <a href="admin-announcements.html">ㅤDUYURULARㅤ</a>
+                                <ul class="dropdown">
+                                    <li><a href="admin-add-announcement.html">Duyuru Ekle</a></li>
+                                </ul>
                             </li>
                             <li><a href="index.html">ㅤÇIKIŞ YAPㅤ</a></li>
 
@@ -253,53 +265,11 @@
                 </div>
             </div>
         </div>
-        <div class="container tm-mt-big tm-mb-big">
-            <div class="row">
-                <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
-                    <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="section-title">
-                                    <h2>Soru-Cevap Ekle</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row tm-edit-product-row">
-                            <div class="col-sm-12 col-lg-12 col-md-12">
-                                <form action="" method="post" class="tm-edit-product-form">
-                                    <div class="form-group mb-3">
-                                        <br><br>
-                                        <label for="name">
-                                            Soru
-                                        </label>
-                                        <input id="name"
-                                               name="name"
-                                               type="text"
-                                               class="form-control validate" />
-                                    </div>
-
-                                    <div class="form-group mb-3">
-                                        <label for="description">Cevap</label>
-                                        <textarea class="form-control validate tm-small"
-                                                  rows="5"
-                                                  required> </textarea>
-                                    </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="section-title">
-                                    <br><br>
-                                    <a href="#" class="primary-btn">ㅤㅤㅤㅤEKLEㅤㅤㅤㅤㅤ</a>
-                                </div>
-                            </div>
-                            <p>
-                                ㅤ
-                                ㅤ
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="section-title">
+            <a href="admin-add-faq.html" class="primary-btn">SORU EKLE</a>
         </div>
+
+      
         <!-- Faq Section End -->
         <!-- Footer Section Begin -->
         <footer class="footer-section">
@@ -342,7 +312,7 @@
                             <ul>
                                 <li><a href="admin-add-product.html">Ürün Ekle</a></li>
                                 <li><a href="admin-add-announcement.html">Duyuru Ekle</a></li>
-                                <li><a href="admin-faq.html">Soru Ekle</a></li>
+                                <li><a href="admin-add-faq.html">Soru Ekle</a></li>
 
                             </ul>
                         </div>
