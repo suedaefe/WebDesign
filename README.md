@@ -6,3 +6,5 @@ Bu proje için online bir gözlük satış platformunu tasarlandı. Hazır bir t
 - Front-end: HTML, CSS
 - Back-end: JavaScript
 
+Site github pages'de yayındadır.
+
